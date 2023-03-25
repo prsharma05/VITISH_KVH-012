@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/sA.css">
+</head>
+<body>
+    <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Fund Trail Analysier</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="http://localhost:3500" class="nav-link">Upload</a></li>
+          <li class="nav-item"><a href="http://localhost:5050/dash.html" class="nav-link">Dashboard</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <div class="px-4 py-5 my-5 text-center">
+        <div class="animation-ctn">
+            <div class="icon icon--order-success svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="154px" height="154px">
+                <g fill="none" stroke="#22AE73" stroke-width="2">
+                  <circle cx="77" cy="77" r="72" style="stroke-dasharray:480px, 480px; stroke-dashoffset: 960px;"></circle>
+                  <circle id="colored" fill="#22AE73" cx="77" cy="77" r="72" style="stroke-dasharray:480px, 480px; stroke-dashoffset: 960px;"></circle>
+                  <polyline class="st0" stroke="#fff" stroke-width="10" points="43.5,77.8 63.7,97.9 112.2,49.4 " style="stroke-dasharray:100px, 100px; stroke-dashoffset: 200px;" />
+                </g>
+              </svg>
+            </div>
+          </div>
+        <h1 class="display-5 fw-bold text-body-emphasis">Start the Fund trail analysis by Uploading the Bank Statements</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Click on the button below to go to Upload page</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3" onclick="window.location.href = 'http://localhost:3500/'">UPLOAD</button>
+          </div>
+        </div>
+      </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
